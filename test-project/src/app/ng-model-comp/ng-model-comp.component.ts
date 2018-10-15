@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ng-model-comp.component.css']
 })
 export class NgModelCompComponent implements OnInit {
-  user;
+  user:User;
   constructor() { }
 
   ngOnInit() {
   }
-  
+  updateName(event)
+  {
+    this.user.name=event.target.value;
+  }
 }
