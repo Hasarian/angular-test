@@ -9,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class FirstCompComponent implements OnInit {
   title='this is a component';
   formIsValid=false;
+  classToApply='bolder';
   constructor() { }
 
   ngOnInit() {
