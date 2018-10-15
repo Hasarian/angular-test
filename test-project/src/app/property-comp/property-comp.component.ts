@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PropertyCompComponent implements OnInit {
 
-  title='this is a component using a property';
+  title='property comp';
   constructor() { }
 
   ngOnInit() {

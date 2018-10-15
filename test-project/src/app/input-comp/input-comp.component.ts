@@ -19,6 +19,6 @@ export class InputCompComponent implements OnInit {
   }
   display()
   {
-    this.spanDisplay.nativeElement.innerHTML=this.userNameInput.nativeElement.value;
+    this.spanDisplay.nativeElement.innerHTML="internal output: "+this.userNameInput.nativeElement.value;
   }
 }
