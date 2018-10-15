@@ -11,5 +11,12 @@ export class EventCompComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  somethingIsHappening()
+  {
+      alert("something is happening !");
+  }
+  somethingElseIsHappening()
+  {
+    alert("fly!");
+  }
 }
