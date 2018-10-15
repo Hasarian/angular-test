@@ -15,7 +15,7 @@ export class EventCompComponent implements OnInit {
   {
       alert("something is happening !");
   }
-  somethingElseIsHappening()
+  somethingElseIsHappening($event)
   {
     alert("fly!");
   }

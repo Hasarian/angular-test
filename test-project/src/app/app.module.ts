@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { FirstCompComponent } from './first-comp/first-comp.component';
 import { PropertyCompComponent } from './property-comp/property-comp.component';
 import { EventCompComponent } from './event-comp/event-comp.component';
+import { InputCompComponent } from './input-comp/input-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstCompComponent,
     PropertyCompComponent,
-    EventCompComponent
+    EventCompComponent,
+    InputCompComponent
   ],
   imports: [
     BrowserModule
